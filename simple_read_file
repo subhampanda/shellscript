@@ -1,3 +1,6 @@
- echo "What is your name?"
-read a
-echo "suham panda $a"
+print "enter  three values"
+read a  b c 
+echo $a
+echo $b
+echo $c
+
