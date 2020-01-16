@@ -45,6 +45,15 @@ echo "number  is less  then 0 "
 fi
 ~
 
+a=-10
+b=-20
+if [ `expr $a + $b `  -gt  0  ]
+then
+ echo " numer  greater  then  0"	
+else
+ echo "number  is less  then 0 "
+fi 
+
  
  
  
