@@ -1,0 +1,24 @@
+-e <file name> if a file exist 
+-d <file name> if a folder exist
+-f <file name> if a regular file
+-l <file name> if a link a file
+-r <file name> if a file contains read pression
+-w <file name> if a file contains write pression
+-x <file name> if a file contains exacte pression
+-s <file name> if a file size is more than one byte
+-o <file name> if a file  owned by a user
+-G <file name> if file is owned by a group
+<file1> -ef <file2> if file1 is linked to file 2 
+-----------------------------------------------------------------------------------
+
+copy  a content of one file to other file 
+
+echo " please enter the   first file "
+read f1 f2
+if [ -e $f1 ]
+then
+ cp $f1 $f2
+ echo "data copied"
+else
+ echo f1  is not copied
+fi 
