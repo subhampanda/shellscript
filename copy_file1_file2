@@ -1,0 +1,9 @@
+echo " please enter the   first file "
+read f1 f2
+if [ -e $f1 ]
+then
+ cp $f1 $f2
+ echo "data copied"
+else
+ echo f1  is not copied
+fi 
